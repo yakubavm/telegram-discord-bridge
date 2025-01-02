@@ -20,7 +20,6 @@ A Python script that bridges communication between Telegram and Discord by trans
 
 1. Clone the repository or download the script:
    ```bash
-   git clone https://github.com/username/telegram-discord-bridge.git
    cd telegram-discord-bridge
    ```
 
