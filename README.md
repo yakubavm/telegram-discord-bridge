@@ -18,17 +18,18 @@ A Python script that bridges communication between Telegram and Discord by trans
 
 ## Installation
 
-1. Download the script:
+1. Clone the repository:
    ```bash
+   git clone https://github.com/yakubavm/telegram-discord-bridge.git
    cd telegram-discord-bridge
    ```
 
 2. Install the required Python libraries:
    ```bash
-   pip install telethon discord.py
+   pip install -r requirements.txt
    ```
 
-3. Configure the script by editing the following variables:
+3. Configure the script by editing the following variables in `script_name.py`:
    ```python
    TELEGRAM_API_ID = 'your_telegram_api_id'
    TELEGRAM_API_HASH = 'your_telegram_api_hash'
@@ -78,4 +79,4 @@ Contributions are welcome! Feel free to submit issues, fork the repository, or c
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
